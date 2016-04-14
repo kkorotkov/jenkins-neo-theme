@@ -1,21 +1,23 @@
 {
-  "name": "jenkins-neo-theme",
+  "name": "jenkins-l64-theme",
   "version": "0.1.0",
-  "description": "A modern theme for Jenkins - based on jenkins-material-theme",
+  "description": "L64 theme for Jenkins - based on jenkins-contrib-themes/jenkins-neo-theme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aarjithn/jenkins-neo-theme"
+    "url": "https://github.com/kkorotkov/jenkins-neo-theme"
   },
   "keywords": [
     "modern theme", 
     "clean design",
-    "jenkins"
+    "jenkins",
+    "labs64"
   ],
-  "author": "Aarjith Nandakumar",
+  "author": "Aarjith Nandakumar (original theme)",
   "contributors": [
     "Afonso F",
     "David Porter",
-    "Brady Vitrano"
+    "Brady Vitrano",
+    "Konstantin Korotkov"
   ],
   "license": "MIT",
   "devDependencies": {

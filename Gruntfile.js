@@ -52,9 +52,16 @@ module.exports = function (grunt) {
                     dest: 'images/'
                 }]
             }
+        },
+        copy: {
+            main: {
+                files: [
+                    {expand: true, cwd: 'images', src: 'Logo_Labs64_Jenkins.png', dest: 'dist/'}
+                ]
+            }
         }
     });
 
     // Default task(s).
-    grunt.registerTask('default', ['clean', 'less', 'imageEmbed', 'cssmin']);
+    grunt.registerTask('default', ['clean', 'less', 'imageEmbed', 'cssmin', 'copy']);
 };
